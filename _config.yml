@@ -90,4 +90,5 @@ disqus_shortname: billplaygroundtest
 #   NavName2: your-folder-name2
 nav:
   主页: .
+  文章列表: archives
   测试站: http://test.billzhonggz.com
