@@ -1,14 +1,16 @@
-menu:
-  Home: /
-  Archives: /archives
-
 # duoshuo comment
 duoshuo: false
 duoshuo_name:
 
-# disqus comment
-disqus: false
-disqus_shortname:
-
 # google analytics
 googleTrackId:
+
+# disqus
+disqus: true
+disqus_shortname: billplaygroundtest
+
+# menu
+menu:
+  Home: /
+  Archives: /archives
+  测试服务器: https://test.billzhonggz.com
