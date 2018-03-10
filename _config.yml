@@ -63,7 +63,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Hacker
+# theme: Hacker
+theme: Daily
+
+nav:
+  首页: .
+  归档: archives
+  2018春IT辅导班: it-tutorial
 
 # social
 social:
@@ -71,7 +77,7 @@ social:
   weibo: http://weibo.com/huayou2908
   mail: mailto:webadmin@billzhonggz.com
   twitter: https://twitter.com/taizu19960728
-
+disqus_shortname: billplaygroundtest
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
