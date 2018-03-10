@@ -1,9 +1,8 @@
 ---
 title: 2018春CPGU IT辅导班课程主页
 date: 2018-03-10 22:49:09
+comments: false
 ---
-
-> 
 
 ## 通知公告
 
