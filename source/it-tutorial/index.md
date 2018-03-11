@@ -36,6 +36,7 @@ comments: false
   * *练习题答案*
 * 文件系统
 * Word 文字处理
+* 实用教程：为Office修改显示语言 (<a href="extra/office-language-pack-install/">查看网页</a> / <a href="extra/office-language-pack-install/office-language-pack-install.pdf">下载PDF</a>)
 
 ## 相关信息
 
