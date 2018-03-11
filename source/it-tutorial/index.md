@@ -12,9 +12,10 @@ comments: false
 
 ## 课程信息
 
-* 授课导师：钟钧儒，马萌中；伍正豪，刘艺
 * 授课时间：每周四 19:00 - 20:30
-* 地点：T29-301，T29-302
+* 授课地点与导师：
+  * T29-301  伍正豪，刘艺
+  * T29-302  钟钧儒，马萌中
 * **课程使用互动问答平台：https://kahoot.it/**
 * 网页维护：钟钧儒
 
@@ -30,12 +31,16 @@ comments: false
 
 ### 校历第三周(3月15日)
 
-* 欢迎参加辅导班
-  * *课件*
-* Introduction to Computers
-  * *练习题答案*
+* 欢迎参加辅导班 (下载PDF)
+* 什么是计算机
+  * 官方课件 (请自行前往 iSpace 下载)：Lecture 2 - Introduction to Computer
+  * 查看 / 下载 练习题答案
 * 文件系统
+  * 官方课件：Lab 2 - Flies System
+  * 课本：P1-11
 * Word 文字处理
+  * 官方课件：Lab 3 - Word Processing
+  * 课本：P24-48
 * 实用教程：为Office修改显示语言 (<a href="extra/office-language-pack-install/">查看网页</a> / <a href="extra/office-language-pack-install/office-language-pack-install.pdf">下载PDF</a>)
 
 ## 相关信息

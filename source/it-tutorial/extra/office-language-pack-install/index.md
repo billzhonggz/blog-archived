@@ -4,8 +4,6 @@ date: 2018-03-11 22:49:09
 comments: false
 ---
 
-# 为 Office 修改显示语言的方法
-
 > 作者：Zhenghao Wu
 >
 > 2018年3月11日
@@ -32,10 +30,12 @@ comments: false
 
 至此，你的 Office 的显示语言就已经更改。
 
-
-
-
-
 ## Reference
 
 1. [Office 语言配件包 - Office 支持](https://support.office.com/zh-cn/article/office-%E8%AF%AD%E8%A8%80%E9%85%8D%E4%BB%B6%E5%8C%85-82ee1236-0f9a-45ee-9c72-05b026ee809f?ui=zh-CN&rs=zh-CN&ad=CN#ID0EAACAAA=2016)
+
+## 相关链接
+
+<a href="office-language-pack-install.pdf">下载本教程PDF版</a>
+
+<a href="../../">返回上一层</a>
