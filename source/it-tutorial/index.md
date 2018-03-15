@@ -8,6 +8,8 @@ comments: false
 
 第一次课练习题答案已上传。
 
+第四周课程计划已列出。
+
 **尊重导师的劳动成果，请勿擅自修改课程资料，或传播课程资料至非辅导班学员**
 
 ## 课程信息
@@ -42,6 +44,21 @@ comments: false
   * 官方课件：Lab 3 - Word Processing
   * 课本：P24-48
 * 实用教程：为Office修改显示语言 (<a href="extra/office-language-pack-install/">查看网页</a> / <a href="extra/office-language-pack-install/office-language-pack-install.pdf">下载PDF</a>)
+
+### 校历第四周(3月22日)
+
+* 算法及计算机简史
+  * 官方课件：Lecture 3 - Algorithm and History
+  * 查看 / 下载 练习题答案
+* PowerPoint 演示文稿
+  * 官方课件：Lab 4 - PowerPoint
+  * 课本：P49-76
+* 谷歌搜索
+  * 官方课件：Lab 4 - Google Search
+  * 课本：P12-23
+* Excel 电子表格基础
+  * 官方课件：Lab 5 - Excel
+  * 课本：P77-102
 
 ## 相关信息
 
