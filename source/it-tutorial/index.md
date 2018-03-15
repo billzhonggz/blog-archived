@@ -1,12 +1,12 @@
 ---
 title: 2018春CPGU IT辅导班课程主页
-date: 2018-03-13 22:49:09
+date: 2018-03-15 22:49:09
 comments: false
 ---
 
 ## 通知公告
 
-欢迎参加辅导班的课件已上传。
+第一次课练习题答案已上传。
 
 **尊重导师的劳动成果，请勿擅自修改课程资料，或传播课程资料至非辅导班学员**
 
@@ -34,7 +34,7 @@ comments: false
 * 欢迎参加辅导班 ([下载PDF](slides/welcome.pdf))
 * 什么是计算机
   * 官方课件 (请自行前往 iSpace 下载)：Lecture 2 - Introduction to Computer
-  * 查看 / 下载 练习题答案
+  * [查看](exercise/lec-2/) / [下载](exercise/lec-2/Exercises-on-Lecture-2.pdf) 练习题答案
 * 文件系统
   * 官方课件：Lab 2 - Flies System
   * 课本：P1-11
