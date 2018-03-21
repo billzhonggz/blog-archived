@@ -57,7 +57,7 @@ comments: false
   * 官方课件：Lab 4 - Google Search
   * 课本：P12-23
 
-## 校历第五周(3月29日)
+### 校历第五周(3月29日)
 
 * 计数系统
   * 官方课件：Lecture 5 - Number Systems
@@ -65,7 +65,7 @@ comments: false
   * 官方课件：Lab 5 - Excel
   * 课本：P77-102
 
-## 校历第六周(4月5日)
+### 校历第六周(4月5日)
 
 **本周清明节假期停课**
 
