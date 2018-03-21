@@ -1,6 +1,6 @@
 ---
 title: 2018春CPGU IT辅导班课程主页
-date: 2018-03-15 22:49:09
+date: 2018-03-22 22:49:09
 comments: false
 ---
 
@@ -48,17 +48,26 @@ comments: false
 ### 校历第四周(3月22日)
 
 * 算法及计算机简史
-  * 官方课件：Lecture 3 - Algorithm and History
-  * 查看 / 下载 练习题答案
+  * 官方课件：Lecture 4 - Algorithm and History
+  * [查看](exercise/lec-4) / [下载](exercise/lec-4/Exercises-on-Lecture-4.pdf) 练习题答案
 * PowerPoint 演示文稿
   * 官方课件：Lab 4 - PowerPoint
   * 课本：P49-76
 * 谷歌搜索
   * 官方课件：Lab 4 - Google Search
   * 课本：P12-23
-* Excel 电子表格基础
+
+## 校历第五周(3月29日)
+
+* 计数系统
+  * 官方课件：Lecture 5 - Number Systems
+* Excel 电子表格
   * 官方课件：Lab 5 - Excel
   * 课本：P77-102
+
+## 校历第六周(4月5日)
+
+**本周清明节假期停课**
 
 ## 相关信息
 
