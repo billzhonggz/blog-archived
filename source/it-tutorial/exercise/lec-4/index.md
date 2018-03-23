@@ -83,8 +83,6 @@ comments: false
 
 https://play.kahoot.it/#/k/034dc0fa-9143-4631-9ee5-b387a7c4ad64
 
-## 相关链接
+## 接下来
 
-[返回上一层](../../)
-
-[下载PDF版](Exercises-on-Lecture-4.pdf)
+[返回上一层](../../) | [下载PDF版](Exercises-on-Lecture-4.pdf)

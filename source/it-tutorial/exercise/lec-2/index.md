@@ -103,6 +103,6 @@ comments: false
 
    d. **Usage, Money, Performance, Support or warranty**
 
-[返回上一层](../../)
+## 接下来
 
-[下载PDF版](Exercises-on-Lecture-2.pdf)
+[返回上一层](../../) | [下载PDF版](Exercises-on-Lecture-2.pdf)

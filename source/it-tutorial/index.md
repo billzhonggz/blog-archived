@@ -1,10 +1,12 @@
 ---
 title: 2018春CPGU IT辅导班课程主页
-date: 2018-03-22 22:49:09
+date: 2018-03-23 22:49:09
 comments: false
 ---
 
 ## 通知公告
+
+上传扩展知识**Excel 基础之扩展：公式与函数**。
 
 请投票选择第六周上课时间。
 
@@ -64,10 +66,11 @@ comments: false
 * Excel 电子表格
   * 官方课件：Lab 5 - Excel
   * 课本：P77-102
+  * Excel 基础之扩展：公式与函数 ([查看网页](slides/excel-extend) / [下载PDF](slides/excel-extend/Excel-Basic-Extended.pdf))
 
 ### 校历第六周(4月5日)
 
-**本周清明节假期停课**
+**本周复活节、清明节假期，上课时间待定。**
 
 ## 相关信息
 
