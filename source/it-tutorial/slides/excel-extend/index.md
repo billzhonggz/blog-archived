@@ -48,11 +48,11 @@ comments: false
 
 结合计算平均数的数学公式，我们可以很容易地知道其等价的公式是：
 
-![average in 4 cells](formula1.png)
+![average in 4 cells](https://latex.codecogs.com/svg.latex?\frac{A1+A2+A3+A4}{4})
 
 扩展到一般情况，Excel函数 `AVERAGE(number1, [number2], ...)` 所执行的一般公式则为：
 
-![general average](formula2.png)
+![general average](https://latex.codecogs.com/svg.latex?\overline{x}=\frac{x_{1}+x_{2}+x_{3}+\cdots+x_{n}}{n})
 
 这说明，当你输入函数名，并给函数**合法的**输入**参数**后，函数即会输出一个对应的**返回值**。
 
