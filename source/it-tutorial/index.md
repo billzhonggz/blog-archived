@@ -1,16 +1,18 @@
 ---
 title: 2018春CPGU IT辅导班课程主页
-date: 2018-03-28 22:49:09
+date: 2018-03-29 22:49:09
 comments: false
 ---
 
 ## 通知公告
 
-第六周上课时间为4月6日（星期五），地点未定，请留意后续更新。
+第六周上课时间为**4月6日**（星期五），301班同学到**T29-304**，302班同学到**T29-104**。
+
+上传扩展知识**Excel能做什么**。
 
 上传扩展知识**Excel 基础之扩展：公式与函数**。
 
-第四周练习题答案已上传，第五周课程计划已列出。
+第六周课程计划已列出。
 
 **尊重导师的劳动成果，请勿擅自修改课程资料，或传播课程资料至非辅导班学员**
 
@@ -61,16 +63,20 @@ comments: false
 
 ### 校历第五周(3月29日)
 
-* 计数系统
-  * 官方课件：Lecture 5 - Number Systems
 * Excel 电子表格
   * 官方课件：Lab 5 - Excel
   * 课本：P77-102
   * Excel 基础之扩展：公式与函数 ([查看网页](slides/excel-extend) / [下载PDF](slides/excel-extend/Excel-Basic-Extended.pdf))
+  * 扩展：Excel能做什么 ([查看网页](slides/what-can-excel-do) / [下载PDF](slides/what-can-excel-do/What-can-excel-do.pdf))
 
 ### 校历第六周(4月6日)
 
-**本周复活节、清明节假期，上课时间安排至4月6日（星期五），地点待定。**
+**本周复活节、清明节假期，上课时间安排至4月6日（星期五），T29-304和T29-104。**
+
+* 高级 Excel
+  * 官方课件：Lab 6 - Excel Advance
+* 计数系统
+  - 官方课件：Lecture 5 - Number Systems
 
 ## 相关信息
 
