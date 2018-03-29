@@ -83,7 +83,7 @@ disqus_shortname: billplaygroundtest
 deploy:
   type: git
   repo: git@git.coding.net:billzhonggz/PersonalWebsite.git
-  branch: homepage
+  branch: coding-pages
 
 widget:
   title: 关于博主
