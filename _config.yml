@@ -91,7 +91,7 @@ widget:
 
 footer:
   Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> with Theme <a href="https://github.com/GallenHu/hexo-theme-Daily" target="_blank">Daily</a>
-  <p>Hosting on <a href="https://github.io/" target="_blank">GitHub Pages</a> | CDN by <a href="https://www.cloudflare.com/" target="_blank">CloudFlare</a></P>
+  <p>Hosting on <a href="https://coding.me/" target="_blank">Coding Pages</a>
   <p><a href="https://analytics.google.com/" target="_blank">Google Analytics</a> is applied on this site, some information will be collected.</p>
 
 google_analytics: UA-115900587-1
