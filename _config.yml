@@ -12,8 +12,8 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://billzhonggz.com
-root: /
+url: https://billzhonggz.coding.me/PersonalWebsite
+root: /PersonalWebsite/
 permalink: :id/
 permalink_defaults:
 
