@@ -12,7 +12,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://billzhonggz.com
+url: https://ng.billzhonggz.com
 root: /
 permalink: :id/
 permalink_defaults:
@@ -64,7 +64,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: Hacker
-theme: Daily
+theme: next
 
 nav:
   首页: .
@@ -82,8 +82,8 @@ disqus_shortname: billplaygroundtest
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:billzhonggz/billzhonggz.github.io.git
-  branch: master
+  repo: git@git.coding.net:billzhonggz/PersonalWebsite.git
+  branch: coding-pages
 
 widget:
   title: 关于博主
