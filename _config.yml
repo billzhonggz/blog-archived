@@ -71,27 +71,13 @@ nav:
   归档: archives
   2018春IT辅导班: it-tutorial
 
-# social
-social:
-  github: https://github.com/billzhonggz
-  weibo: http://weibo.com/huayou2908
-  mail: mailto:webadmin@billzhonggz.com
-  twitter: https://twitter.com/taizu19960728
 disqus_shortname: billplaygroundtest
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: git@git.coding.net:billzhonggz/PersonalWebsite.git
   branch: coding-pages
-
-widget:
-  title: 关于博主
-  content: <p>来自中国的南方，改革开放的前沿阵地，就读于一所内地香港合办的国际学院，在一所文科强项的学院研究计算机科学，虽为普通人，但为梦想而前行。</p>
-
-footer:
-  Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> with Theme <a href="https://github.com/GallenHu/hexo-theme-Daily" target="_blank">Daily</a>
-  <p>Hosting on <a href="https://coding.me/" target="_blank">Coding Pages</a>
-  <p><a href="https://analytics.google.com/" target="_blank">Google Analytics</a> is applied on this site, some information will be collected.</p>
 
 google_analytics: UA-115900587-1
