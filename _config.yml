@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Bill Zhong
-subtitle: Logging for developing
+title: Blog - Bill, Junru ZHONG
+subtitle: 
 description:
-author: Bill Zhong
+author: Bill, Junru ZHONG
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://ng.billzhonggz.com
-root: /
+url: https://billzhonggz.com/blog
+root: /blog/
 permalink: :id/
 permalink_defaults:
 
@@ -70,5 +70,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@git.coding.net:billzhonggz/PersonalWebsite.git
-  branch: coding-pages
+  repo: git@github.com:billzhonggz/blog.git
+  branch: gh-pages
