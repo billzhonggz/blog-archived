@@ -66,18 +66,9 @@ pagination_dir: page
 # theme: Hacker
 theme: next
 
-nav:
-  首页: .
-  归档: archives
-  2018春IT辅导班: it-tutorial
-
-disqus_shortname: billplaygroundtest
-
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: git@git.coding.net:billzhonggz/PersonalWebsite.git
   branch: coding-pages
-
-google_analytics: UA-115900587-1
