@@ -1,18 +1,16 @@
 ---
 title: 2018春CPGU IT辅导班课程主页
-date: 2018-03-29 22:49:09
+date: 2018-04-04 22:49:09
 comments: false
 ---
 
 ## 通知公告
 
+**请填写期中反馈问卷**
+
+上传**高级Excel函数列表及其文档链接**。
+
 第六周上课时间为**4月6日**（星期五），301班同学到**T29-304**，302班同学到**T29-104**。
-
-上传扩展知识**Excel能做什么**。
-
-上传扩展知识**Excel 基础之扩展：公式与函数**。
-
-第六周课程计划已列出。
 
 **尊重导师的劳动成果，请勿擅自修改课程资料，或传播课程资料至非辅导班学员**
 
@@ -75,8 +73,13 @@ comments: false
 
 * 高级 Excel
   * 官方课件：Lab 6 - Excel Advance
+  * 函数列表及其文档链接 ([查看网页](extra/advance-excel-functions) / [下载PDF](extra/advance-excel-functions/Advance-excel-functions.pdf))
 * 计数系统
   - 官方课件：Lecture 5 - Number Systems
+
+### 校历第七周(4月12日)
+
+* 机房答疑
 
 ## 相关信息
 
