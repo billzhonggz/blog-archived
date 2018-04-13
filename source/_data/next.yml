@@ -85,7 +85,7 @@ footer:
     version: true
   # -------------------------------------------------------------
   # Any custom text can be defined here.
-  custom_text: Hosted by <a target="_blank" rel="external nofollow" href="https://pages.coding.me"><b>Coding Pages</b></a>
+  custom_text: <a href="https://analytics.google.com/" target="_blank">Google Analytics</a> is applied on this site, some information will be collected. <br />Hosted by <a href="https://github.io/" target="_blank">GitHub Pages</a> | CDN by <a href="https://www.cloudflare.com/" target="_blank">CloudFlare</a>
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -114,7 +114,8 @@ index_with_subtitle: false
 # Value before `||` delimeter is the target link.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
-  home: / || home
+  home: https://billzhonggz.com || home
+  blog-home: / || home
   #about: /about/ || user
   #tags: /tags/ || tags
   #categories: /categories/ || th
@@ -456,10 +457,10 @@ pangu: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: billplaygroundtest
   count: true
-  lazyload: false
+  lazyload: true
 
 # Hypercomments
 #hypercomments_id:
@@ -559,7 +560,7 @@ needmoreshare2:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-115900587-1
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
