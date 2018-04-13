@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/blog/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/blog/css/main.css?v=6.0.6" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon-next.png?v=6.0.6">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/images/favicon-32x32-next.png?v=6.0.6">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/images/favicon-16x16-next.png?v=6.0.6">
+
+
+  <link rel="mask-icon" href="/blog/images/logo.svg?v=6.0.6" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/blog/',
+    scheme: 'Gemini',
+    version: '6.0.6',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="编写：钟钧儒 基于原始课件”Excel2010.pdf” 最后修改日期：2018年3月23日  Excel公式在Excel中，你可以在任何一个单元格中输入名为“公式”的算式。这些公式由“=”等于号作为起始符号，公式还可包含下列所有内容或其中之一：函数、引用、运算符和常量。 考虑下面的一个Excel公式 1=PI()*A2^2 在这个公式中，同时包含了函数、引用、运算符和常量全部四种数据类型。从左">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Excel基础知识之扩展">
+<meta property="og:url" content="https://billzhonggz.com/blog/it-tutorial/slides/excel-extend/index.html">
+<meta property="og:site_name" content="Blog - Bill, Junru ZHONG">
+<meta property="og:description" content="编写：钟钧儒 基于原始课件”Excel2010.pdf” 最后修改日期：2018年3月23日  Excel公式在Excel中，你可以在任何一个单元格中输入名为“公式”的算式。这些公式由“=”等于号作为起始符号，公式还可包含下列所有内容或其中之一：函数、引用、运算符和常量。 考虑下面的一个Excel公式 1=PI()*A2^2 在这个公式中，同时包含了函数、引用、运算符和常量全部四种数据类型。从左">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://latex.codecogs.com/svg.latex?\frac{A1+A2+A3+A4}{4}">
+<meta property="og:image" content="https://latex.codecogs.com/svg.latex?\overline{x}=\frac{x_{1}+x_{2}+x_{3}+\cdots+x_{n}}{n}">
+<meta property="og:updated_time" content="2018-04-13T15:02:21.361Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Excel基础知识之扩展">
+<meta name="twitter:description" content="编写：钟钧儒 基于原始课件”Excel2010.pdf” 最后修改日期：2018年3月23日  Excel公式在Excel中，你可以在任何一个单元格中输入名为“公式”的算式。这些公式由“=”等于号作为起始符号，公式还可包含下列所有内容或其中之一：函数、引用、运算符和常量。 考虑下面的一个Excel公式 1=PI()*A2^2 在这个公式中，同时包含了函数、引用、运算符和常量全部四种数据类型。从左">
+<meta name="twitter:image" content="https://latex.codecogs.com/svg.latex?\frac{A1+A2+A3+A4}{4}">
+
+
+
+  <link rel="alternate" href="/blog/atom.xml" title="Blog - Bill, Junru ZHONG" type="application/atom+xml" />
+
+
+
+
+  <link rel="canonical" href="https://billzhonggz.com/blog/it-tutorial/slides/excel-extend/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>Excel基础知识之扩展 | Blog - Bill, Junru ZHONG</title>
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115900587-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115900587-1');
+</script>
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/blog/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Blog - Bill, Junru ZHONG</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+    <a href="https:/billzhonggz.com" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-blog-home">
+    <a href="/blog/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />博客首页</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/blog/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-it-tutorial menu-item-active">
+    <a href="/blog/it-tutorial/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-desktop"></i> <br />IT 辅导班</a>
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+    
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+    
+
+  
+
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+    
+    
+    <div class="post-block page">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">Excel基础知识之扩展</h1>
+
+<div class="post-meta">
+  
+  
+
+
+  
+  
+  <ul class="breadcrumb">
+    
+      
+      
+        
+          <li><a href="/blog/it-tutorial/">IT-TUTORIAL</a></li>
+          
+            
+          
+        
+      
+    
+      
+      
+        
+          <li><a href="/it-tutorial/blog/slides/">SLIDES</a></li>
+          
+            
+          
+        
+      
+    
+      
+      
+        
+          <li>EXCEL-EXTEND</li>
+        
+      
+    
+      
+      
+    
+  </ul>
+
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+        
+        
+          <blockquote>
+<p>编写：钟钧儒</p>
+<p>基于原始课件”Excel2010.pdf”</p>
+<p>最后修改日期：2018年3月23日</p>
+</blockquote>
+<h2 id="Excel公式"><a href="#Excel公式" class="headerlink" title="Excel公式"></a>Excel公式</h2><p>在Excel中，你可以在任何一个单元格中输入名为“公式”的算式。这些公式由“=”等于号作为起始符号，公式还可包含下列<strong>所有内容</strong>或<strong>其中之一</strong>：<strong>函数</strong>、<strong>引用</strong>、<strong>运算符</strong>和<strong>常量</strong>。</p>
+<p>考虑下面的一个Excel公式</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=PI()*A2^2</span><br></pre></td></tr></table></figure>
+<p>在这个公式中，同时包含了函数、引用、运算符和常量全部四种数据类型。从左至右解析如下：</p>
+<ul>
+<li><strong>函数</strong> <code>PI()</code> 返回圆周率 <code>pi</code> 的值：3.142…</li>
+<li><strong>引用</strong> <code>A2</code> 返回单元格 A2 的值</li>
+<li><strong>常量</strong> 直接输入到公式中的文本或值</li>
+<li><strong>运算符</strong> <code>^</code> 表示数字的乘方（幂），<code>*</code> 表示做乘法运算</li>
+</ul>
+<h2 id="Excel函数"><a href="#Excel函数" class="headerlink" title="Excel函数"></a>Excel函数</h2><p>可以认为Excel函数是一系列完成常用数学或统计运算的公式的“封装”，请阅读下列定义。</p>
+<blockquote>
+<p>数学中“函数”概念：函数是一种两集合（定义域、值域）之间的对应关系：输入值集合（定义域）中的每项元素均能对应<strong>唯一</strong>一项输出值（值域）中的元素。</p>
+<p>计算机科学中的“函数”概念：函数是一种<strong>子程序</strong>，一个大型软件中的部分代码，由一个或多个语句块组成，相较于其他代码具有相对的独立性。一个函数一般会有<strong>输入参数</strong>和<strong>返回值</strong>，并提供<strong>对过程的封装和细节的隐藏</strong>。</p>
+</blockquote>
+<p>考虑下列的一个Excel公式中的函数，它等价于什么公式？</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">=AVERAGE(A1:A4)</span><br></pre></td></tr></table></figure>
+<p>在这个公式中，可以看到存在<strong>函数</strong>、<strong>引用</strong>两种数据类型。</p>
+<ul>
+<li>函数 <code>AVERAGE(number1, [number2], ...)</code> 返回所输入值的<strong>平均值</strong>。</li>
+<li>引用 <code>A1:A4</code> 作为参数输入函数 <code>AVERAGE</code>，代表四个单元格（A1、A2、A3、A4）的值。</li>
+</ul>
+<p>结合计算平均数的数学公式，我们可以很容易地知道其等价的公式是：</p>
+<p><img src="https://latex.codecogs.com/svg.latex?\frac{A1+A2+A3+A4}{4}" alt="average in 4 cells"></p>
+<p>扩展到一般情况，Excel函数 <code>AVERAGE(number1, [number2], ...)</code> 所执行的一般公式则为：</p>
+<p><img src="https://latex.codecogs.com/svg.latex?\overline{x}=\frac{x_{1}+x_{2}+x_{3}+\cdots+x_{n}}{n}" alt="general average"></p>
+<p>这说明，当你输入函数名，并给函数<strong>合法的</strong>输入<strong>参数</strong>后，函数即会输出一个对应的<strong>返回值</strong>。</p>
+<h2 id="使用Excel函数"><a href="#使用Excel函数" class="headerlink" title="使用Excel函数"></a>使用Excel函数</h2><p>在上述介绍中提到，当你输入函数名，并给函数<strong>合法的</strong>输入<strong>参数</strong>后，函数即会输出一个对应的<strong>返回值</strong>。因此，在使用Excel函数时，我们需要搞清楚需要使用的函数的如下几个信息：</p>
+<ul>
+<li>函数的<strong>功能</strong>：函数能干什么？它等价于什么<em>数学运算</em>？或它能提供什么<em>数据可视化</em>？</li>
+<li>函数的<strong>参数</strong>：函数的输入值，需要注意参数的<strong>数量</strong>、<strong>类型</strong></li>
+<li>函数的<strong>返回值</strong>：函数的输出值，需要注意返回值的<strong>类型</strong></li>
+</ul>
+<p>在Excel中，有上百个函数可供用户调用，某些函数在某些版本的Excel中是不可用的。一个高效率查询函数的方法就是使用Excel的官方文档查询。访问：<a href="https://support.office.com/zh-cn/excel" target="_blank" rel="noopener">https://support.office.com/zh-cn/excel</a></p>
+<p>如 <code>VLOOKUP</code> 函数则可以访问 <a href="https://support.office.com/zh-cn/article/VLOOKUP-%E5%87%BD%E6%95%B0-0BBC8083-26FE-4963-8AB8-93A18AD188A1" target="_blank" rel="noopener">https://support.office.com/zh-cn/article/VLOOKUP-%E5%87%BD%E6%95%B0-0BBC8083-26FE-4963-8AB8-93A18AD188A1</a> 页面提供了技术参考和用户教程。</p>
+<p><strong>有必要留意Lab中涉及的所有函数的相关官方文档</strong></p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>Office支持：<a href="https://support.office.com/" target="_blank" rel="noopener">https://support.office.com/</a></p>
+<h2 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h2><p><a href="../../">返回上一层</a> | <a href="Excel-Basic-Extended.pdf">下载PDF版</a></p>
+
+        
+      </div>
+      
+      
+      
+    </div>
+    
+
+
+  
+  
+  <ul class="breadcrumb">
+    
+      
+      
+        
+          <li><a href="/blog/it-tutorial/">IT-TUTORIAL</a></li>
+          
+            
+          
+        
+      
+    
+      
+      
+        
+          <li><a href="/it-tutorial/blog/slides/">SLIDES</a></li>
+          
+            
+          
+        
+      
+    
+      
+      
+        
+          <li>EXCEL-EXTEND</li>
+        
+      
+    
+      
+      
+    
+  </ul>
+
+
+    
+    
+    
+  </div>
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Bill, Junru ZHONG</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/blog/archives/">
+                
+                    <span class="site-state-item-count">16</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-name">分类</span>
+                  
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">5</span>
+                    <span class="site-state-item-name">标签</span>
+                  
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/blog/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/billzhonggz" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:webadmin@billzhonggz.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Excel公式"><span class="nav-number">1.</span> <span class="nav-text">Excel公式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Excel函数"><span class="nav-number">2.</span> <span class="nav-text">Excel函数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用Excel函数"><span class="nav-number">3.</span> <span class="nav-text">使用Excel函数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考资料"><span class="nav-number">4.</span> <span class="nav-text">参考资料</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#接下来"><span class="nav-number">5.</span> <span class="nav-text">接下来</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Bill, Junru ZHONG</span>
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Gemini</a> v6.0.6</div>
+
+
+
+  <div class="footer-custom"><a href="https://analytics.google.com/" target="_blank">Google Analytics</a> is applied on this site, some information will be collected. <br />Hosted by <a href="https://github.io/" target="_blank">GitHub Pages</a> | CDN by <a href="https://www.cloudflare.com/" target="_blank">CloudFlare</a></div>
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/utils.js?v=6.0.6"></script>
+
+  <script type="text/javascript" src="/blog/js/src/motion.js?v=6.0.6"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/affix.js?v=6.0.6"></script>
+
+  <script type="text/javascript" src="/blog/js/src/schemes/pisces.js?v=6.0.6"></script>
+
+
+
+  
+  <script type="text/javascript" src="/blog/js/src/scrollspy.js?v=6.0.6"></script>
+<script type="text/javascript" src="/blog/js/src/post-details.js?v=6.0.6"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/bootstrap.js?v=6.0.6"></script>
+
+
+
+  
+
+  
+    <script id="dsq-count-scr" src="https://billplaygroundtest.disqus.com/count.js" async></script>
+  
+
+  
+
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

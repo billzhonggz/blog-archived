@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/blog/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/blog/css/main.css?v=6.0.6" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon-next.png?v=6.0.6">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/images/favicon-32x32-next.png?v=6.0.6">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/images/favicon-16x16-next.png?v=6.0.6">
+
+
+  <link rel="mask-icon" href="/blog/images/logo.svg?v=6.0.6" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/blog/',
+    scheme: 'Gemini',
+    version: '6.0.6',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="编写：钟钧儒 最后修改日期：2018年3月28日  我估计很多人在自己的记忆开始之初，就知道了微软的Office系列；Office三剑客也成为Windows乃至Mac用户的装机必备软件。大家都知道Word是文字处理，PowerPoint是演示文稿，那Excel能做什么呢？ Excel电子表格据维基百科，“电子表格”是一类模拟纸上计算表格的计算机程序。它会显示由一系列行与列构成的网格。单元格内可以">
+<meta property="og:type" content="website">
+<meta property="og:title" content="扩展：Excel能做什么">
+<meta property="og:url" content="https://billzhonggz.com/blog/it-tutorial/slides/what-can-excel-do/index.html">
+<meta property="og:site_name" content="Blog - Bill, Junru ZHONG">
+<meta property="og:description" content="编写：钟钧儒 最后修改日期：2018年3月28日  我估计很多人在自己的记忆开始之初，就知道了微软的Office系列；Office三剑客也成为Windows乃至Mac用户的装机必备软件。大家都知道Word是文字处理，PowerPoint是演示文稿，那Excel能做什么呢？ Excel电子表格据维基百科，“电子表格”是一类模拟纸上计算表格的计算机程序。它会显示由一系列行与列构成的网格。单元格内可以">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-04-13T15:02:21.372Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="扩展：Excel能做什么">
+<meta name="twitter:description" content="编写：钟钧儒 最后修改日期：2018年3月28日  我估计很多人在自己的记忆开始之初，就知道了微软的Office系列；Office三剑客也成为Windows乃至Mac用户的装机必备软件。大家都知道Word是文字处理，PowerPoint是演示文稿，那Excel能做什么呢？ Excel电子表格据维基百科，“电子表格”是一类模拟纸上计算表格的计算机程序。它会显示由一系列行与列构成的网格。单元格内可以">
+
+
+
+  <link rel="alternate" href="/blog/atom.xml" title="Blog - Bill, Junru ZHONG" type="application/atom+xml" />
+
+
+
+
+  <link rel="canonical" href="https://billzhonggz.com/blog/it-tutorial/slides/what-can-excel-do/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>扩展：Excel能做什么 | Blog - Bill, Junru ZHONG</title>
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115900587-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115900587-1');
+</script>
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/blog/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Blog - Bill, Junru ZHONG</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+    <a href="https:/billzhonggz.com" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-blog-home">
+    <a href="/blog/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />博客首页</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/blog/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-it-tutorial menu-item-active">
+    <a href="/blog/it-tutorial/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-desktop"></i> <br />IT 辅导班</a>
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+    
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+    
+
+  
+
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+    
+    
+    <div class="post-block page">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">扩展：Excel能做什么</h1>
+
+<div class="post-meta">
+  
+  
+
+
+  
+  
+  <ul class="breadcrumb">
+    
+      
+      
+        
+          <li><a href="/blog/it-tutorial/">IT-TUTORIAL</a></li>
+          
+            
+          
+        
+      
+    
+      
+      
+        
+          <li><a href="/it-tutorial/blog/slides/">SLIDES</a></li>
+          
+            
+          
+        
+      
+    
+      
+      
+        
+          <li>WHAT-CAN-EXCEL-DO</li>
+        
+      
+    
+      
+      
+    
+  </ul>
+
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+        
+        
+          <blockquote>
+<p>编写：钟钧儒</p>
+<p>最后修改日期：2018年3月28日</p>
+</blockquote>
+<p>我估计很多人在自己的记忆开始之初，就知道了微软的Office系列；Office三剑客也成为Windows乃至Mac用户的装机必备软件。大家都知道Word是文字处理，PowerPoint是演示文稿，那Excel能做什么呢？</p>
+<h2 id="Excel电子表格"><a href="#Excel电子表格" class="headerlink" title="Excel电子表格"></a>Excel电子表格</h2><p>据维基百科，“电子表格”是一类模拟纸上计算表格的计算机程序。它会显示由一系列行与列构成的网格。单元格内可以存放数值、计算式、或文本。电子表格通常用于财务信息，因为它能够频繁的重新计算整个表格。</p>
+<p>在我理解中，Excel就是一个典型的“电子表格”软件。所以在Excel的界面中，就只有行和列构成的网格，一切的操作就基于这些行和列，也就是说，他只对部分类型的数据有效。</p>
+<h2 id="Excel与大数据"><a href="#Excel与大数据" class="headerlink" title="Excel与大数据"></a>Excel与大数据</h2><p>“大数据”近几年是一个很火热的话题。因为我自己希望在未来投入这一块的研究，所以也关注了一些大数据相关的话题。</p>
+<p>的确，Excel能做<strong>数据处理</strong>的工作。但是<strong>大数据</strong>、<strong>数据处理</strong>这些名词都是非常的宽泛，那Excel能在当今火热的数据产业中做点什么吗？</p>
+<p>答案很可能是<strong>不能</strong>做很多。我们所说的大数据具备五种特性（这也是DST各专业的IT课程内容）：</p>
+<ul>
+<li>Volume 容量：这一点强调了大数据的“大”。在《大数据时代》一书中提到，大数据在统计中可以认为是“样本=总体”。也就是说，大数据需要对及其大量的数据进行处理。大数据现在的处理一般是面向PB级别的数据量（1PB=1024TB）。</li>
+<li>Variety 多样性：这一点强调了大数据的“杂”。大数据中，大部分的数据均为<em>非结构化数据</em>，如文本。思考一下，你该如何处理文本？</li>
+<li>Velocity 速度：在大数据处理中，正因为有大量的类型多样的数据不断地产生，所以我们才需要以很快的速度处理数据。</li>
+<li>Variability 可变性：大数据处理中讲求实时可变。从这一点中我们可以推出，大数据处理中大部分情况需要机器自动化处理。</li>
+<li>Veracity 真实性：数据自己会说话。当你收集的数据足够的多，一幅<em>数据画像</em>自然会显现出来，人在其中能干预的东西就很少了。</li>
+</ul>
+<p>Excel只能处理<strong>结构化数据</strong>。所谓的<strong>结构化数据</strong>就是说，用户能通过<em>键值</em>获得信息且数据的<em>结构</em>相对固定。考虑下面一张出自课上练习的表格：</p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>t(year)</th>
+<th>Actual Population (P)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1988</td>
+<td>0</td>
+<td>81000</td>
+</tr>
+<tr>
+<td>1989</td>
+<td>1</td>
+<td>84900</td>
+</tr>
+<tr>
+<td>1990</td>
+<td>2</td>
+<td>89100</td>
+</tr>
+<tr>
+<td>1991</td>
+<td>3</td>
+<td>93600</td>
+</tr>
+<tr>
+<td>1992</td>
+<td>4</td>
+<td>98300</td>
+</tr>
+<tr>
+<td>1993</td>
+<td>5</td>
+<td>103250</td>
+</tr>
+<tr>
+<td>1994</td>
+<td>6</td>
+<td>108500</td>
+</tr>
+<tr>
+<td>1995</td>
+<td>7</td>
+<td>114000</td>
+</tr>
+<tr>
+<td>1996</td>
+<td>8</td>
+<td>119700</td>
+</tr>
+<tr>
+<td>1997</td>
+<td>9</td>
+<td>125700</td>
+</tr>
+<tr>
+<td>1998</td>
+<td>10</td>
+<td>132000</td>
+</tr>
+</tbody>
+</table>
+<p>假设我想知道第10年的人口，我只需要观察<strong>第二列</strong>的内容为<strong>10</strong>的那一行，这一行中的<strong>第三列</strong>的数据即为我的目标数据132000。在此过程中，所谓的<em>键值</em>便是第二列的表头 <code>t(year)</code>。同样的，使用另一种典型的处理结构化数据的工具，<em>关系型数据库</em>（DBM学生IT课内容），要得到同样数据，输入的SQL代码应该是（假设表名为 <code>Population</code> ，不保证这个代码能跑）：</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="string">`Actual Population (P)`</span> <span class="keyword">FROM</span> <span class="string">`Population`</span> <span class="keyword">WHERE</span> <span class="string">`t(year)`</span> = <span class="number">10</span></span><br></pre></td></tr></table></figure>
+<p>直接翻译这句代码其实就是上面的思考过程。这也是处理结构化数据的典型思路。</p>
+<h2 id="结构化-vs-非结构化"><a href="#结构化-vs-非结构化" class="headerlink" title="结构化 vs. 非结构化"></a>结构化 vs. 非结构化</h2><p>并不是说处理结构化数据就不是大数据，我其实只是想说明Excel并不是处理大数据主流数据类型——非结构化数据的工具。</p>
+<p>考虑下面一段从UIC官网复制的介绍，如何计算这段话的词数？</p>
+<blockquote>
+<p>Situated in Zhuhai, Beijing Normal University-Hong Kong Baptist University United International College (UIC) was jointly founded by Beijing Normal University and Hong Kong Baptist University (HKBU). It is the first full-scale cooperation in higher education between the Mainland and Hong Kong. Its charter has been approved by the Ministry of Education with full support from local authorities.</p>
+</blockquote>
+<p>这里提供一个这样的思路：英文中以空格作为单词的分割，从头开始<em>遍历</em>全文所有字符，直至找到一个空格，就可以计算其为一个单词。所以可以写成下列算法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">导入 文本</span><br><span class="line">初始化 计数器</span><br><span class="line">读取 文本中所有字符</span><br><span class="line">	当 读取到一个空格</span><br><span class="line">		计数器 + 1</span><br><span class="line">    继续读取至文本结尾</span><br><span class="line">循环结束</span><br><span class="line">输出计数器</span><br></pre></td></tr></table></figure>
+<p>这就是最为广泛使用的大数据处理框架<a href="https://hadoop.apache.org/" target="_blank" rel="noopener">Hadoop</a>的入门程序，词频计算。以下系其示例代码（已忽略细节，完整代码<a href="https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html" target="_blank" rel="noopener">点这里</a>）：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">WordCount</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">TokenizerMapper</span></span></span><br><span class="line"><span class="class">       <span class="keyword">extends</span> <span class="title">Mapper</span>&lt;<span class="title">Object</span>, <span class="title">Text</span>, <span class="title">Text</span>, <span class="title">IntWritable</span>&gt;</span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">final</span> <span class="keyword">static</span> IntWritable one = <span class="keyword">new</span> IntWritable(<span class="number">1</span>);</span><br><span class="line">    <span class="keyword">private</span> Text word = <span class="keyword">new</span> Text();</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">map</span><span class="params">(Object key, Text value, Context context</span></span></span><br><span class="line"><span class="function"><span class="params">                    )</span> <span class="keyword">throws</span> IOException, InterruptedException </span>&#123;</span><br><span class="line">      <span class="comment">// StringTokenizer 即为分割单词的关键工具</span></span><br><span class="line">      StringTokenizer itr = <span class="keyword">new</span> StringTokenizer(value.toString());</span><br><span class="line">      <span class="comment">// 循环计算单词数量</span></span><br><span class="line">      <span class="keyword">while</span> (itr.hasMoreTokens()) &#123;</span><br><span class="line">        word.set(itr.nextToken());</span><br><span class="line">        <span class="comment">// 计数器 + 1</span></span><br><span class="line">        context.write(word, one);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>反正我是想不出来怎么用Excel处理这些数据了……</p>
+<h2 id="怎么用Excel"><a href="#怎么用Excel" class="headerlink" title="怎么用Excel"></a>怎么用Excel</h2><p>其实我觉得，在我使用Excel的时候，实际上已经是有一点在编程的感觉了。况且Excel支持VBA脚本编写“宏”（听说有支持Python的计划）。所以能以计算机科学的一些思维去思考会比较好。</p>
+<ul>
+<li>在开始之前，你需要收集数据</li>
+<li>首先，用文字列出你的需求。统计？筛选？还是其他？</li>
+<li>然后，在Excel尝试或者在<a href="https://support.office.com/" target="_blank" rel="noopener">Office支持</a>中寻求相关的函数和功能，列出<em>算法</em>。</li>
+<li>接着，在Excel中实现你的<em>算法</em>。</li>
+<li>最后排版一下，美观一点。</li>
+</ul>
+<h2 id="Excel的替代品"><a href="#Excel的替代品" class="headerlink" title="Excel的替代品"></a>Excel的替代品</h2><p>Excel并不是第一个电子表格软件，但是确是搭乘了Windows普及的东风成为了当今当之无愧排名第一的电子表格软件。Excel并不免费，而且也并不是面面俱到，我这里列出了一些Excel的替代品：</p>
+<ul>
+<li>电子表格软件<ul>
+<li>Calc： 免费开源的OpenOffice、LibreOffice包含</li>
+<li>Google Sheets：在线的免费服务</li>
+<li>Numbers：包含于苹果iWorks套件，对Mac用户免费</li>
+</ul>
+</li>
+<li>数据科学、统计软件：不是Excel的严格替代品，但这些能实现几乎相同或更高级的功能。<ul>
+<li>SPSS：IBM出品的统计软件，收费；开源社区推出的对应开源软件叫PSPP。</li>
+<li>MATLAB：Mathworks出品的数据科学、计算机科学编程语言及相关软件，收费；对应开源软件为GNU Octave。</li>
+<li>配合CSV格式的数据源，可以使用编程语言处理：<ul>
+<li>R：开源编程语言，关注数据分析和数据科学领域，可以使用各种<em>库</em>实现很多Excel的函数对应的功能。</li>
+<li>Python：开源编程语言，被广泛应用在数据科学、人工智能等领域，同样可以使用<em>库</em>实现数据分析应用。配合Jupyter软件可以制作一份图文并茂的且可以直接运行Python代码的报告。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Business Intelligence：微软PowerBI，桌面单机版免费，云服务收费。BI是一种实现高级数据可视化的工具。</li>
+</ul>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="https://zh.wikipedia.org/wiki/%E9%9B%BB%E5%AD%90%E8%A9%A6%E7%AE%97%E8%A1%A8" target="_blank" rel="noopener">https://zh.wikipedia.org/wiki/%E9%9B%BB%E5%AD%90%E8%A9%A6%E7%AE%97%E8%A1%A8</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Big_data" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Big_data</a></p>
+<p><a href="https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html" target="_blank" rel="noopener">https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html</a></p>
+<h2 id="接下来"><a href="#接下来" class="headerlink" title="接下来"></a>接下来</h2><p><a href="../../">返回上一层</a> | <a href="What-can-excel-do.pdf">下载PDF版</a></p>
+
+        
+      </div>
+      
+      
+      
+    </div>
+    
+
+
+  
+  
+  <ul class="breadcrumb">
+    
+      
+      
+        
+          <li><a href="/blog/it-tutorial/">IT-TUTORIAL</a></li>
+          
+            
+          
+        
+      
+    
+      
+      
+        
+          <li><a href="/it-tutorial/blog/slides/">SLIDES</a></li>
+          
+            
+          
+        
+      
+    
+      
+      
+        
+          <li>WHAT-CAN-EXCEL-DO</li>
+        
+      
+    
+      
+      
+    
+  </ul>
+
+
+    
+    
+    
+  </div>
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Bill, Junru ZHONG</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/blog/archives/">
+                
+                    <span class="site-state-item-count">16</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-name">分类</span>
+                  
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">5</span>
+                    <span class="site-state-item-name">标签</span>
+                  
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/blog/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/billzhonggz" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:webadmin@billzhonggz.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Excel电子表格"><span class="nav-number">1.</span> <span class="nav-text">Excel电子表格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Excel与大数据"><span class="nav-number">2.</span> <span class="nav-text">Excel与大数据</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#结构化-vs-非结构化"><span class="nav-number">3.</span> <span class="nav-text">结构化 vs. 非结构化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#怎么用Excel"><span class="nav-number">4.</span> <span class="nav-text">怎么用Excel</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Excel的替代品"><span class="nav-number">5.</span> <span class="nav-text">Excel的替代品</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考资料"><span class="nav-number">6.</span> <span class="nav-text">参考资料</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#接下来"><span class="nav-number">7.</span> <span class="nav-text">接下来</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Bill, Junru ZHONG</span>
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Gemini</a> v6.0.6</div>
+
+
+
+  <div class="footer-custom"><a href="https://analytics.google.com/" target="_blank">Google Analytics</a> is applied on this site, some information will be collected. <br />Hosted by <a href="https://github.io/" target="_blank">GitHub Pages</a> | CDN by <a href="https://www.cloudflare.com/" target="_blank">CloudFlare</a></div>
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/utils.js?v=6.0.6"></script>
+
+  <script type="text/javascript" src="/blog/js/src/motion.js?v=6.0.6"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/affix.js?v=6.0.6"></script>
+
+  <script type="text/javascript" src="/blog/js/src/schemes/pisces.js?v=6.0.6"></script>
+
+
+
+  
+  <script type="text/javascript" src="/blog/js/src/scrollspy.js?v=6.0.6"></script>
+<script type="text/javascript" src="/blog/js/src/post-details.js?v=6.0.6"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/bootstrap.js?v=6.0.6"></script>
+
+
+
+  
+
+  
+    <script id="dsq-count-scr" src="https://billplaygroundtest.disqus.com/count.js" async></script>
+  
+
+  
+
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
