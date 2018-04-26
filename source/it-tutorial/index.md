@@ -6,10 +6,6 @@ comments: false
 
 ## 通知公告
 
-**请填写[期中反馈问卷](https://wj.qq.com/s/1986505/a6cb)**
-
-第八周停课。
-
 **尊重导师的劳动成果，请勿擅自修改课程资料，或传播课程资料至非辅导班学员**
 
 ## 课程信息
@@ -82,6 +78,14 @@ comments: false
 ### 校历第八周(4月19日)
 
 * 本周停课
+
+### 校历第九周(4月26日)
+
+* 数据表示法
+  * 官方课件：Lecture 6 - Data Representation
+  * [查看](exercise/lec-6) / [下载](exercise/lec-6/Exercises-on-Lecture-6.pdf) 练习题答案
+* 图像与视频处理
+  * 官方课件：Lab 7 - Image Processing / Lab 8 - Video Processing
 
 ## 相关信息
 
